@@ -1,0 +1,6 @@
+com/kozak/myweather/databinding/SpinnerItemBinding.java
+ com.kozak.myweather.databinding.SpinnerItemBinding
+com/kozak/myweather/BuildConfig.java
+ com.kozak.myweather.BuildConfig
+com/kozak/myweather/databinding/ActivityMainBinding.java
+ com.kozak.myweather.databinding.ActivityMainBinding

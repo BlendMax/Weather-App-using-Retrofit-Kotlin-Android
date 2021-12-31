@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kozak.myweather"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:5:5-78
+12-->C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:6:5-80
+13-->C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:6:22-78
+14
+15    <application
+15-->C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:8:5-22:19
+16        android:allowBackup="true"
+16-->C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:9:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.7.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\ba8a3d241a1b81556649136ec2637f09\core-1.7.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:10:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:11:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:12:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:13:9-35
+23        android:theme="@style/Theme.MyWeather" >
+23-->C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:14:9-47
+24        <activity android:name="com.kozak.myweather.MainActivity" >
+24-->C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:15:9-21:20
+24-->C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:15:19-47
+25            <intent-filter>
+25-->C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:16:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:17:17-69
+26-->C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:19:17-77
+28-->C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\985e2cd0df079af27c1fbf80b30fc2e6\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+32            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+32-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\985e2cd0df079af27c1fbf80b30fc2e6\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+33            android:exported="false"
+33-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\985e2cd0df079af27c1fbf80b30fc2e6\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+34            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+34-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\985e2cd0df079af27c1fbf80b30fc2e6\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+35
+36        <meta-data
+36-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\a8a93caa7855c28ea1af38febe95b63e\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+37            android:name="com.google.android.gms.version"
+37-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\a8a93caa7855c28ea1af38febe95b63e\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+38            android:value="@integer/google_play_services_version" />
+38-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\a8a93caa7855c28ea1af38febe95b63e\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+39
+40        <service
+40-->[androidx.room:room-runtime:2.4.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\97d6e974d8f9a30b9714d543f9a5e13f\room-runtime-2.4.0\AndroidManifest.xml:25:9-28:40
+41            android:name="androidx.room.MultiInstanceInvalidationService"
+41-->[androidx.room:room-runtime:2.4.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\97d6e974d8f9a30b9714d543f9a5e13f\room-runtime-2.4.0\AndroidManifest.xml:26:13-74
+42            android:directBootAware="true"
+42-->[androidx.room:room-runtime:2.4.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\97d6e974d8f9a30b9714d543f9a5e13f\room-runtime-2.4.0\AndroidManifest.xml:27:13-43
+43            android:exported="false" />
+43-->[androidx.room:room-runtime:2.4.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\97d6e974d8f9a30b9714d543f9a5e13f\room-runtime-2.4.0\AndroidManifest.xml:28:13-37
+44
+45        <provider
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\e352b764ecd4b819a6de4a6861619408\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+46            android:name="androidx.startup.InitializationProvider"
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\e352b764ecd4b819a6de4a6861619408\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+47            android:authorities="com.kozak.myweather.androidx-startup"
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\e352b764ecd4b819a6de4a6861619408\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+48            android:exported="false" >
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\e352b764ecd4b819a6de4a6861619408\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+49            <meta-data
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\e352b764ecd4b819a6de4a6861619408\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\e352b764ecd4b819a6de4a6861619408\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+51                android:value="androidx.startup" />
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\e352b764ecd4b819a6de4a6861619408\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+52            <meta-data
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\9af09d6ef4af6aae33db8165dc192c29\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\9af09d6ef4af6aae33db8165dc192c29\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+54                android:value="androidx.startup" />
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\9af09d6ef4af6aae33db8165dc192c29\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+55        </provider>
+56    </application>
+57
+58</manifest>
