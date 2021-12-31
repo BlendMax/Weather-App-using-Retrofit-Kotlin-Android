@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyWeather</string>
+    <string-array name="spinner_array">
+        <item>London</item>
+        <item>Paris</item>
+        <item>Istanbul</item>
+        <item>Tokyo</item>
+        <item>Kyiv</item>
+        <item>Current location</item>
+    </string-array>
+</resources>
