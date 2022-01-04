@@ -1,5 +1,6 @@
 package com.kozak.myweather.internet
 
+import android.content.Context
 import android.util.Log
 import com.kozak.myweather.data.DataFormat
 import retrofit2.Call
@@ -9,7 +10,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 
-class ApiBuilder() {
+class ApiBuilder(context: Context) {
     var city: String? = null
     var lat:Double? = null
     var lon:Double? = null
