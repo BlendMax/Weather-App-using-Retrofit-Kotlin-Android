@@ -1,6 +1,5 @@
 package com.kozak.myweather.internet
 
-import android.content.Context
 import android.util.Log
 import com.kozak.myweather.data.DataFormat
 import retrofit2.Call
@@ -10,7 +9,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 
-class ApiBuilder(context: Context) {
+class ApiBuilder() {
     var city: String? = null
     var lat:Double? = null
     var lon:Double? = null
@@ -25,11 +24,10 @@ class ApiBuilder(context: Context) {
 
          val service = retrofitBuilder.create(ApiServiceCity::class.java)
          val call = service.getCurrentWeatherData(cityName, units,  AppId)
-
          call.enqueue(object : Callback<DataFormat> {
              override fun onResponse(call: Call<DataFormat>, response: Response<DataFormat>) {
                  val responseBody = response.body()!!
-                 if (response.isSuccessful) callback.onSuccess(responseBody.main.temp.toDouble())
+                 if (response.isSuccessful) callback.onSuccess(responseBody.main.temp)
 
              }
 
@@ -50,11 +48,10 @@ class ApiBuilder(context: Context) {
 
         val service = retrofitBuilder.create(ApiServiceLocation::class.java)
         val call = service.getCurrentWeatherData(latitude, longitude, units,  AppId)
-
         call.enqueue(object : Callback<DataFormat> {
             override fun onResponse(call: Call<DataFormat>, response: Response<DataFormat>) {
                 val responseBody = response.body()!!
-                if (response.isSuccessful) callback.onSuccess(responseBody.main.temp.toDouble())
+                if (response.isSuccessful) callback.onSuccess(responseBody.main.temp)
 
             }
 

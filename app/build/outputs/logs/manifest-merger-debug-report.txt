@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\9f8cfd3eac1f76be3253c1891f484fcd\jetified-viewbinding-4.1.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\2b1d96d2a88c72bcc7b438ab9a70b7ba\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\f3d14d0a821543b284d6d9e73c1c8667\jetified-core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
@@ -62,20 +62,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.0] C:\Users\MSI\.gra
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\cf9b51052e0e073adafba0bc075a01e6\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\c43a6b6d6ccf354db93fca7909f31309\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\1e0ece2a2397b3c4008a83efa20a8cdf\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:2:11-69
@@ -92,7 +92,7 @@ ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-
 	android:name
 		ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:6:22-78
 application
-ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:8:5-22:19
+ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:8:5-24:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\2de5a6b17c59cfa51c3f364f5a8e2176\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\2de5a6b17c59cfa51c3f364f5a8e2176\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\MSI\.gradle\caches\transforms-2\files-2.1\aea8ef72149a3058e8a92bf4b27526b2\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
@@ -133,20 +133,22 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\MSI\.gradle\caches
 		ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
 		ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:14:9-47
+	android:usesCleartextTraffic
+		ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:15:9-44
 activity#com.kozak.myweather.MainActivity
-ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:15:9-21:20
+ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:17:9-23:20
 	android:name
-		ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:15:19-47
+		ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:17:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml:21:27-74
 uses-sdk
 INJECTED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\AndroidManifest.xml

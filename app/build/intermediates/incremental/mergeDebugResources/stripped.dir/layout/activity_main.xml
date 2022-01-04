@@ -55,7 +55,7 @@
             android:layout_height="70dp"
             android:layout_gravity="center"
             android:onClick="onClickButton"
-            android:text="Forecast" />
+            android:text="@string/forecast" />
 
     </LinearLayout>
 

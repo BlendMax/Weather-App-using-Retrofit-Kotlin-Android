@@ -7752,7 +7752,7 @@
         <item>Tokyo</item>
         <item>Kyiv</item>
         <item>Current location</item>
-    </string-array></file><file path="C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.MyWeather" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    </string-array><string name="forecast">Forecast</string></file><file path="C:\Users\MSI\AndroidStudioProjects\Weather-App-using-Retrofit-Kotlin-Android\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.MyWeather" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
